@@ -1,0 +1,446 @@
+*{
+	margin: 0;
+}
+
+html {
+  scroll-behavior: smooth
+}
+/*----->menu<------*/
+nav{
+	background: red;
+
+	color: white;
+	font-size: 14px;
+	align-content: center;
+	justify-content: flex-start;
+	z-index: -2;
+}
+ 
+.menu{
+	font-family: 'Akira Expanded', sans-serif;
+	padding-right: 200px;
+	padding-top: 15px;
+	list-style: none;
+	display: flex;
+	justify-content: space-around;
+}
+
+.menu a{
+	padding: 0;
+
+	color: white;
+	text-decoration: none;
+}
+
+.contato{
+	position: absolute;
+	display: flex;
+	font-family: 'Akira Expanded', sans-serif;
+}
+/*.div{
+	background: green;
+}*/
+
+/*----->imagem<------*/
+.banner-card img{
+	overflow: hidden;
+	margin: 0;
+	padding: 0;
+	width: 600px;
+	display: flex;
+	position:fixed;
+	margin-left: 60vh;
+	 page-break-inside: auto;
+}
+
+/*.icon img{
+	background: blue;
+	margin-left: 350px;
+	justify-content: flex-start;
+	display: flex;
+	width: 230px;
+}*/
+
+
+img{
+	position: absolute;
+	width: 230px;
+	display: flex;
+	margin-right: 250px;
+	margin-top: 15px;
+	padding-top: 60px;
+}
+
+.card-digital{
+	position: absolute;
+	display: flex;
+	padding-left: 300px;
+	padding-top: 500px;
+	width: 350px;
+}
+
+.line{
+	position: absolute;
+	display: flex;
+	padding-top: 250px;
+	padding-left: 300px;
+	width: 1000px;
+}
+
+.creative-art{
+	position: absolute;
+	display: flex;
+	padding-top: 1200px;
+	width: 350px;
+	padding-left: 900px;
+}
+
+.aesthetic-art{
+	position: absolute;
+	display: flex;
+	padding-top: 1850px;
+	width: 350px;
+	padding-right: 400px;
+}
+
+.any-style{
+	position: absolute;
+	display: flex;
+	padding-top: 2500px;
+	width: 700px;
+	padding-left: 300px;
+}
+/*----->texto imagem<-----*/
+.second{
+	font-family: 'Akira Expanded', sans-serif;
+	font-size: 70px;
+	position: absolute;
+	top: 40%;
+	padding: 10px;
+	
+}
+
+.first{
+	font-family: 'Akira Expanded', sans-serif;
+	display: flex;
+	justify-content: center;
+	margin-left: 950px;
+	font-size: 40px;
+	position: absolute;
+	padding-top: 150px;
+	text-decoration: underline;
+	
+}
+
+.banner-text2{
+	
+	position: absolute;
+	margin-left: 950px;
+	padding-top: 200px;
+}
+.second .scroll-text .outline{
+	position: relative;
+	font-size: 5rem;
+	white-space: nowrap;
+}
+
+
+/*----->texto outline<-----*/
+.stroke-text{
+	font-family: 'Akira Expanded', sans-serif;
+	font-size: 70px;
+	position: absolute;
+	top: 40%;
+	padding: 10px;
+	z-index: 1;
+	-webkit-text-stroke:1px white;
+	-webkit-text-fill-color:transparent;
+}
+
+/*.wrapper {
+  height: 100vh;
+  width: 190vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+  perspective: 2px;
+}
+
+
+.parallax ::after {
+  content: " ";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  transform: translateZ(-1px) scale(1.5);
+  background-size: 100%;
+  z-index: -1;
+}*/
+
+/*----->ABOUT<------*/
+.container{
+	background: #212121;
+	box-shadow: 0 0 3em #212121;
+	display: flex;
+	justify-content: center;
+	position: relative;
+	margin-top: 65vh;
+	padding-bottom: 3200px;
+	
+}
+
+h1{
+	font-family: Vensfolk, bold;
+	display: flex;
+	justify-content:flex-start;
+	align-content: space-around;
+	font-size: 40px;
+	padding-top: 110px;
+	margin: 0;
+	position: absolute;
+}
+
+.banner-text{
+	white-space: nowrap;
+	padding-left: 350px;
+	position: absolute;
+}
+
+.about{
+	position: absolute;
+	font-family: vensfolk;
+	display: flex;
+	padding-bottom: 700px;
+	padding-left: 500px;
+ 	margin:0;
+	transform: rotate(-90deg);
+}
+
+p{
+	font-family: futura thin, sans-serif;
+	display: flex;
+	justify-content: flex-start;
+	margin-top: 15px;
+	font-size: 20px;
+	position: absolute;
+}
+
+.texto-card{
+	
+	padding-top: 160px;
+	padding-left: 400px;
+	position: absolute;
+}
+
+.hwarmony{
+	font-family: 'Akira Expanded', sans-serif;
+	position: absolute;
+	display: flex;
+	padding-top: 400px;
+	padding-right: 1090px;
+}
+
+.portfolio{
+	font-family: 'Akira Expanded', sans-serif;
+	position: absolute;
+	display: flex;
+	padding-top: 400px;
+	padding-left:  1090px;
+}
+
+.portfolio-inner{
+	font-family: 'Akira Expanded', sans-serif;
+	position: absolute;
+	display: flex;
+	padding-top: 420px;
+	padding-left: 1120px;
+	-webkit-text-stroke:0.5px white;
+	-webkit-text-fill-color:transparent;
+	
+}
+.illustrations{
+	font-family: 'Akira Expanded', sans-serif;
+	font-size: 80px;
+	text-align: center;
+	position: absolute;
+	display: flex;
+	padding-top: 700px;
+}
+
+.illustrations-inner{
+	font-family: 'Akira Expanded', sans-serif;
+	font-size: 80px;
+	text-align: center;
+	position: absolute;
+	display: flex;
+	padding-top: 700px;
+	z-index: 1;
+	-webkit-text-stroke:1px white;
+	-webkit-text-fill-color:transparent;
+}
+
+.creative-text{
+	font-family: 'Akira Expanded', sans-serif;
+	font-size: 100px;
+	text-align: end;
+	position: absolute;
+	display: flex;
+	padding-right: 200px;
+	padding-top: 1350px;
+}
+
+.creative-text-inner{
+	font-family: 'Akira Expanded', sans-serif;
+	font-size: 100px;
+	text-align: end;
+	position: absolute;
+	display: flex;
+	padding-right: 200px;
+	padding-top: 1350px;
+	z-index: 1;
+	-webkit-text-stroke:1px white;
+	-webkit-text-fill-color:transparent;
+}
+
+.aesthetic-text{
+	font-family: 'Akira Expanded', sans-serif;
+	font-size: 100px;
+	text-align:start;
+	position: absolute;
+	display: flex;
+	padding-left: 200px;
+	padding-top: 2000px;
+}
+
+.aesthetic-inner{
+	font-family: 'Akira Expanded', sans-serif;
+	font-size: 100px;
+	text-align:start;
+	position: absolute;
+	display: flex;
+	padding-left: 200px;
+	padding-top: 2000px;
+	-webkit-text-stroke:1px white;
+	-webkit-text-fill-color:transparent;
+}
+
+.in-any-text{
+	font-family: 'Akira Expanded', sans-serif;
+	font-size: 40px;
+	text-align:center;
+	position: absolute;
+	display: flex;
+	padding-top: 2800px;
+}
+
+.in-any-text-inner{
+	font-family: 'Akira Expanded', sans-serif;
+	font-size: 40px;
+	text-align:center;
+	position: absolute;
+	display: flex;
+	padding-top: 2800px;
+	-webkit-text-stroke:1px white;
+	-webkit-text-fill-color:transparent;
+}
+
+.lenguage-text{
+	font-family: Futura thin, sans-serif;
+	position: absolute;
+	display: flex;
+	padding-top: 1750px;
+	text-align: start;
+	padding-right: 730px;
+}
+
+.whatever-text{
+	font-family: Futura thin, sans-serif;
+	position: absolute;
+	display: flex;
+	text-align: end;
+	padding-left: 600px;
+	padding-top: 2280px;
+}
+
+@font-face{
+	font-family: Vensfolk;
+	src: local(Vensfolk), url(C:\Users\Rafaela\Desktop\HWARMONY/FontsFree-Net-VensfolkRegular.ttf);
+}
+
+@font-face{
+	font-family: Futura;
+	src(Futura Thin), url(C:\Users\Rafaela\Desktop\HWARMONY/futurathin.ttf);
+	
+}
+/*------>PAGINA<---------*/
+
+.pagina{
+	background: #212121;
+	padding-top: 300px;
+	margin: 0;
+	position: absolute;
+	
+}
+
+/*.texto-sobre{
+	background: #212121;
+	color: #212121;
+	padding: 0;
+	margin: 0;
+	height: 1090px;
+	margin-bottom: 1900px;
+	justify-content: center;
+	position: relative;*/
+}
+
+/*.texto{
+	background: #212121;
+	color: white;
+	position: absolute, !important;
+	padding: 0;
+	margin:0;
+	
+}
+
+.innertext{
+	background: yellow;
+	font-family: 'Akira Expanded', sans-serif;
+	display: flex;
+	padding-top: 100px;
+	justify-content: center;
+	padding-right: 1000px;
+	margin-right: 1000px;
+	position: relative;
+}*/
+
+.conteudo{
+	background: #212121, !important;
+	flex: initial;
+	position: absolute;
+}
+
+/*--------------->HOVER<-----------------*/
+
+.h4 a:hover{
+	-webkit-text-stroke:1px white;
+	-webkit-text-fill-color:transparent;
+}
+
+.menu a:hover{
+	-webkit-text-stroke:1px white;
+	-webkit-text-fill-color:transparent;
+}
+
+/*----------->box<--------*/
+
+/*footer{
+	background: white;
+	position: absolute;
+	display: flex;
+	z-index: 1;
+	width: 100%;
+	padding-bottom: 200px;
+}*/
+
+
